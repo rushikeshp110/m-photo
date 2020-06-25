@@ -48,7 +48,7 @@ background-color:black(0.5);
 .brand-name{
   font-family: 'Jost',sans-serif;
   color: white;
-  font-weight: 300;
+  font-weight: 140;
   font-size: 110px;
   padding-bottom: 10px;
 }
@@ -323,6 +323,90 @@ padding-bottom: 80px;
   opacity: 0.3;
 }
 
+.wed-img{
+  width: 530px;
+  max-height: 700px;
+  padding: 10px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.col1{
+  position: relative;
+  right: 6rem;
+    margin-left: 20px;
+}
+.col2{
+  position: relative;
+  right: 6rem;
+margin-left: 10px;
+}
+.col3{
+  position: relative;
+  left:24.4rem;
+  bottom: 90rem;
+  margin-left: 90px;
+}
+.col4{
+  position: relative;
+  left:24.4rem;
+  bottom: 90rem;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+
+.wed-box{
+  margin-left: 15px;
+  margin-right: 0px;
+
+}
+.wed-frame-back{
+  margin-left: -90px;
+  padding-bottom: 30px;
+}
+.wed-imga{
+  width: 1000px;
+  overflow:hidden;
+  z-index: 2;
+  max-height: 2000px;
+}
+.pot-box{
+  margin-left: 18px;
+}
+
+.pot-img{
+  max-width: 900px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-us-design {
+  border-bottom: 80px solid pink;
+  height: 230px;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 740px;
+}
+
+.about-img{
+  padding-top: 50px;
+  max-width: 800px;
+}
+.about-text{
+  text-align: left;
+  padding-top: 50px;
+}
+.about-text-inner{
+  font-size: 40px;
+  font-family: 'Montserrat',sans-serif;
+  opacity: 0.8;
+}
+
+#about-span{
+  font-family: 'Marck Script', cursive;
+  color: #7d5a5a;
+  font-size: 70px;
+}
+
 /* font-family: 'Jost', sans-serif;
 font-family: 'Marck Script', cursive;
 font-family: 'Montserrat', sans-serif;
@@ -570,6 +654,88 @@ font-family: 'Montserrat', sans-serif;
   }
   .nav-elements:hover{
     background-color:rgb(255,192,203,0.3);
+  }
+  .wed-img{
+    width: 330px;
+    max-height: 700px;
+    padding: 10px;
+  }
+
+  .col1{
+    position: relative;
+    right: 1rem;
+    text-align: left;
+  }
+  .col2{
+    position:relative;
+right: 1rem;
+      text-align: left;
+  }
+  .col3{
+    position: static;
+    text-align: left;
+    bottom: 1rem;
+    margin-left: 9px;
+
+  }
+  .col4{
+    position:static;
+    bottom: 2rem;
+    margin-left: 9px;
+      text-align: left;
+    margin-bottom: 0px;
+
+  }
+
+  .pot-box{
+    position:absolute;
+    left: 100px;
+    margin-left: 80px;
+margin-right: -400px;
+  }
+
+.pot-b{
+
+}
+
+  .pot-img{
+    max-width: 550px;
+    margin-left: 0px;
+  }
+  .about-us-design {
+    border-bottom: 70px solid pink;
+    height: 200px;
+    margin-top: 1%;
+  position: relative;
+  bottom: 140px;
+  left: 290px;
+    width: 640px;
+  }
+
+  .about-img{
+    padding-top: 50px;
+    max-width: 800px;
+    position: relative;
+    right: 400px;
+  }
+  .about-text{
+    position: relative;
+    left: 340px;
+    bottom: 500px;
+    width: 50%;
+    text-align: left;
+    padding-top: 50px;
+  }
+  .about-text-inner{
+    font-size: 30px;
+    font-family: 'Montserrat',sans-serif;
+    opacity: 0.8;
+  }
+
+  #about-span{
+    font-family: 'Marck Script', cursive;
+    color: #7d5a5a;
+    font-size: 70px;
   }
 
 }
