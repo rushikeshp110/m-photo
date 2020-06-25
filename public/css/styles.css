@@ -578,6 +578,10 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     position: fixed;
   }
+  .carousel-indicators li {
+      background-color: pink !important;
+  }
+
   .carousel-indicators .active{
     background-color: #7d5a5a;
 }
