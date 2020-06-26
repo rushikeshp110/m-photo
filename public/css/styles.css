@@ -407,6 +407,19 @@ margin-left: 10px;
   font-size: 70px;
 }
 
+.my-map{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border: 10px solid pink;
+}
+
+.find-us{
+  font-family: 'Montserrat',sans-serif;
+  color: #7d5a5a;
+}
+
 /* font-family: 'Jost', sans-serif;
 font-family: 'Marck Script', cursive;
 font-family: 'Montserrat', sans-serif;
@@ -741,5 +754,16 @@ margin-right: -400px;
     color: #7d5a5a;
     font-size: 70px;
   }
+  .my-map{
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border: 10px solid pink;
+  }
 
+  .find-us{
+    font-family: 'Jost',sans-serif;
+    color: #7d5a5a;
+  }
 }
